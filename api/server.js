@@ -43,7 +43,16 @@ app.use((err, req, res, next) => {
   
     return res.status(errorStatus).send(errorMessage);
   });
+if(process.env.NODE_ENV==="production"){
 
+// Serve static files from the frontend
+app.use(express.static(path.join(__dirname, "frontend/dist")));
+
+// Handle client-side routing for SPA
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"));
+});
+}
 app.listen(8800,()=>{
     connectDB();
     console.log('backend server is running !')
