@@ -61,11 +61,11 @@ app.use((err, req, res, next) => {
 // Serve frontend in production
 if (process.env.NODE_ENV === "production") {
   // Serve static files from the frontend directory
-  app.use(express.static(path.join(__dirname, "frontend/dist")));
+  app.use(express.static(path.join(__dirname, "client/dist")));
 
   // SPA routing: Handle client-side routes
   app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"));
+    res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
   });
 }
 
