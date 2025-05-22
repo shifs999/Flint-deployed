@@ -2,7 +2,7 @@ import mongoose  from "mongoose";
 
 export const connectDB=async()=>{
    try{
-      await mongoose.connect('mongodb+srv://saizen777999:oSRyeOij8iV77RS6@cluster0.bxfr6.mongodb.net/Flint?retryWrites=true&w=majority&appName=Cluster0')
+      await mongoose.connect('###')
       console.log('connected to DB')
    }
    catch(error){
