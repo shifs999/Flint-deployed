@@ -8,7 +8,7 @@ import newRequest from "../../utils/newRequest";
 import { useParams } from "react-router-dom";
 import CheckoutForm from "../../components/checkoutForm/CheckoutForm";
 
-const stripePromise = loadStripe("pk_test_51QMQpiJRASXggGlULHHeVKlkHiBzZypcUgej53jB8OPEnsrgWuqTuh3D6QIMfNC1OscoWY9zveEyJ4qBRG8bvdYH00idNRRsGz");
+const stripePromise = loadStripe(" add your own key here :] ");
                           
 const Pay = () => {
   const [clientSecret, setClientSecret] = useState("");
