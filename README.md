@@ -39,10 +39,14 @@ this platform provides a seamless experience for freelancers and clients to inte
 ---
 - The gif files below is the result of the project to give an idea of how the web app's UI looks and how it works.
 
-### App Demo 1
-![App Demo](https://github.com/shifs999/Flint-deployed/blob/main/demo_mern/demo1.gif)
+### Web App Demo 1
+![Web App Demo](https://github.com/shifs999/Flint-deployed/blob/main/demo_mern/demo1.gif)
 
-### App Demo 2
-![App Demo](https://github.com/shifs999/Flint-deployed/blob/main/demo_mern/demo2.gif)
+### Web App Demo 2
+![Web App Demo](https://github.com/shifs999/Flint-deployed/blob/main/demo_mern/demo2.gif)
 
 - *`Note:-`* Functionalities may differ or misbehave based on the latest updates / versions of the dependencies in the project.
+
+## Contact
+
+For any queries or collaborations, feel free to reach me out at **saizen777999@gmail.com**
